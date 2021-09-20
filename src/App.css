@@ -1,38 +1,178 @@
-.App {
+html{
+  font-size:10px;
+}
+ #ml {
+  color: #f2f2f2;
+  font-size: 1.8rem;
+  padding: 1.5rem 3rem;
+  }
+  .navbar-brand{
+   font-size:2.4rem;
+ }
+ .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height:6rem;
+  background-color: rgb(12, 11, 11);
+  color: white;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3{
+  font-weight:380;
+  font-size: 1.8rem;
+  margin-top: -.5rem;
+  }
+/*home*/
+.homebody{
+  margin-top: 2rem;
+  background-image: url(./image/covid2.jpg);
+  }
+  .b1{
+  background-color:#e7feff;
+  text-align: center;
+  }
+  h{
+    font-weight: bold;
+    font-size:2rem;
+  }
+  h2{
+    font-weight: bold;
+    font-size:4rem;
+    margin-top: 4rem;
+  }
+  .highlight{
+    background:#e7feff;
+    color:deeppink;
+  }
+  .btn-color{
+    background: hsl(0, 86%, 53%);
+    color: #fff;
+    font-size:3rem;
+    margin: 2rem 0 2rem 0;
+    }
+.btn-color:hover{
+    color: #fff;
 }
+/* Wobble Vertical */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  @keyframes slide-btn {
+    16.65% {
+         transform: translateY(.8rem);
+    }
+    33.3% {
+          transform: translateY(-.6rem);
+    }
+    49.95% {
+      transform: translateY(.4rem);
+    }
+    66.6% {
+      transform: translateY(-.2rem);
+    }
+    83.25% {
+      transform: translateY(.1rem);
+    }
+    100% {
+    transform: translateY(0);
+    }
+  }
+  .slide-btn:hover, .slide-btn:focus, .slide-btn:active {
+    animation-name: slide-btn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+  }
+/*about*/
+.b{
+ margin: 4rem 2rem 4rem 2rem;
+}
+.main {
+  float: left;
+  width: 50%;
+ }
+.right {
+   width: 40%;
+   }
+/*contact  */
+.body{
+  background-color:#e7feff;
+}
+.emp-profile {
+  box-shadow: .3rem .3rem .5rem .5rem rgba(10, 8, 8, 0.05);
+  padding: 2rem;   /*content inside box doesn't touch the box*/
+  margin-top: 5.5rem; /*box doest not touch the top*/
+  border-radius: 0.05rem;
+  background: #fff;
+}
+ .r1{
+   margin-left:10rem;
+   margin-right: 2rem;
+ }
+ .mb{
+   margin-bottom: 12rem;
+ }
+ .mt{
+   margin-top: 20rem;
+ } 
+ .col-md-6{
+  margin-left:29rem;
+ }
+  @media(max-width:1200px)
+ {
+ html{
+    font-size: 55%;
+ }
+}
+@media(max-width:890px)
+{
+  .col-md-6 {
+    margin-left:18rem;
+    }
+    html{
+    font-size: 55%;
+    }
+}
+@media(max-width:1190px)
+{
+  .main {
+    float: left;
+    width: 40%;
+   }
+  .right {
+     width: 50%;
+     }
+  .col-md-6 {
+    margin-left:23rem;
+    }
+    html{
+    font-size: 55%;
+    }
+}
+@media(max-width:767px)
+{
+  .main ,.right{
+    width: 100%;
+   }
+  .col-md-6 {
+    margin-left:0rem;
+    }
+    .r1{
+      margin-left:2rem;
+    }
+      html{
+    font-size: 45%;
   }
 }
+@media(max-width:280px)
+{ 
+  .main ,.right{
+    
+    width: 100%;
+   }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+    html{
+    font-size:25%;
   }
 }
+ ;
