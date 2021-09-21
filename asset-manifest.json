@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Caring_Foundation/static/css/main.06ec86a1.chunk.css",
-    "main.js": "/Caring_Foundation/static/js/main.ee40cc59.chunk.js",
-    "main.js.map": "/Caring_Foundation/static/js/main.ee40cc59.chunk.js.map",
+    "main.js": "/Caring_Foundation/static/js/main.2db932e0.chunk.js",
+    "main.js.map": "/Caring_Foundation/static/js/main.2db932e0.chunk.js.map",
     "runtime-main.js": "/Caring_Foundation/static/js/runtime-main.3deb1914.js",
     "runtime-main.js.map": "/Caring_Foundation/static/js/runtime-main.3deb1914.js.map",
     "static/js/2.30cd7440.chunk.js": "/Caring_Foundation/static/js/2.30cd7440.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.3deb1914.js",
     "static/js/2.30cd7440.chunk.js",
     "static/css/main.06ec86a1.chunk.css",
-    "static/js/main.ee40cc59.chunk.js"
+    "static/js/main.2db932e0.chunk.js"
   ]
 }
