@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/Caring_Foundation/static/css/main.06ec86a1.chunk.css",
-    "main.js": "/Caring_Foundation/static/js/main.82af9cdd.chunk.js",
-    "main.js.map": "/Caring_Foundation/static/js/main.82af9cdd.chunk.js.map",
+    "main.js": "/Caring_Foundation/static/js/main.a6583551.chunk.js",
+    "main.js.map": "/Caring_Foundation/static/js/main.a6583551.chunk.js.map",
     "runtime-main.js": "/Caring_Foundation/static/js/runtime-main.3deb1914.js",
     "runtime-main.js.map": "/Caring_Foundation/static/js/runtime-main.3deb1914.js.map",
-    "static/js/2.8fb9db56.chunk.js": "/Caring_Foundation/static/js/2.8fb9db56.chunk.js",
-    "static/js/2.8fb9db56.chunk.js.map": "/Caring_Foundation/static/js/2.8fb9db56.chunk.js.map",
+    "static/js/2.30cd7440.chunk.js": "/Caring_Foundation/static/js/2.30cd7440.chunk.js",
+    "static/js/2.30cd7440.chunk.js.map": "/Caring_Foundation/static/js/2.30cd7440.chunk.js.map",
     "static/js/3.e66f1adf.chunk.js": "/Caring_Foundation/static/js/3.e66f1adf.chunk.js",
     "static/js/3.e66f1adf.chunk.js.map": "/Caring_Foundation/static/js/3.e66f1adf.chunk.js.map",
     "index.html": "/Caring_Foundation/index.html",
     "static/css/main.06ec86a1.chunk.css.map": "/Caring_Foundation/static/css/main.06ec86a1.chunk.css.map",
-    "static/js/2.8fb9db56.chunk.js.LICENSE.txt": "/Caring_Foundation/static/js/2.8fb9db56.chunk.js.LICENSE.txt",
+    "static/js/2.30cd7440.chunk.js.LICENSE.txt": "/Caring_Foundation/static/js/2.30cd7440.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Caring_Foundation/static/media/covid2.50fb566e.jpg",
     "static/media/s1.1cef621a.jpg": "/Caring_Foundation/static/media/s1.1cef621a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.3deb1914.js",
-    "static/js/2.8fb9db56.chunk.js",
+    "static/js/2.30cd7440.chunk.js",
     "static/css/main.06ec86a1.chunk.css",
-    "static/js/main.82af9cdd.chunk.js"
+    "static/js/main.a6583551.chunk.js"
   ]
 }
